@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<S3Config>
+  <Endpoints>
+    <Endpoint>
+      <Url>TestUrl</Url>
+      <ScretKey>dummysecretkey</ScretKey>
+      <AccessKey>dummyaccesskey</AccessKey>
+    </Endpoint>
+  </Endpoints>
+</S3Config>

@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30501.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "S3ClientApp", "S3ClientApp\S3ClientApp.csproj", "{06937993-1442-4BBA-A1C0-2A615762092B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "S3ClientAppTest", "S3ClientAppTest\S3ClientAppTest.csproj", "{46A8C94D-9619-4AC0-8B08-932CC62259E3}"
+	ProjectSection(ProjectDependencies) = postProject
+		{06937993-1442-4BBA-A1C0-2A615762092B} = {06937993-1442-4BBA-A1C0-2A615762092B}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{06937993-1442-4BBA-A1C0-2A615762092B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{06937993-1442-4BBA-A1C0-2A615762092B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{06937993-1442-4BBA-A1C0-2A615762092B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{06937993-1442-4BBA-A1C0-2A615762092B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{46A8C94D-9619-4AC0-8B08-932CC62259E3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{46A8C94D-9619-4AC0-8B08-932CC62259E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{46A8C94D-9619-4AC0-8B08-932CC62259E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{46A8C94D-9619-4AC0-8B08-932CC62259E3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
