@@ -2,9 +2,12 @@
 <S3Config>
   <Endpoints>
     <Endpoint>
-      <Url>RegionEndpoint.EUWest1</Url>
-      <ScretKey>dummyscretkey</ScretKey>
+      <Url>TestUrl</Url>
+      <ScretKey>dummysecretkey</ScretKey>
       <AccessKey>dummyaccesskey</AccessKey>
     </Endpoint>
   </Endpoints>
+  <UploadDirectories>
+    <Directory>C:\Project\temp\temp</Directory>
+  </UploadDirectories>
 </S3Config>

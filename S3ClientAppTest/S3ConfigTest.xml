@@ -7,4 +7,7 @@
       <AccessKey>dummyaccesskey</AccessKey>
     </Endpoint>
   </Endpoints>
+  <UploadDirectories>
+    <Directory>C:\Project\temp\temp</Directory>
+  </UploadDirectories>
 </S3Config>

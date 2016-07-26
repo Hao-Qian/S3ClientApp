@@ -24,5 +24,12 @@ namespace S3ClientApp
 
             return s3Configs;
         }
+
+        public List<String> LoadDataDirectories(String filePath)
+        {
+            var doc = XDocument.Load(filePath);
+            var query = doc.Root.Elements("UploadDirectories").Elements("Directory");
+            return query.Select(element => element.Value).ToList();
+        }
     }
 }
